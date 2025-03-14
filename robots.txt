@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://walkersupport.com/sitemap.xml
+
+# Allow all search engines to crawl the site
+# Sitemap location is specified for search engines to find

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Perfect Walker - Senior Mobility Assessment Quiz | WalkerSupport</title>
+    <meta name="description" content="Take our 90-second quiz to find the perfect walker for your mobility needs. Get personalized recommendations for standard walkers, rollators, and all-terrain mobility aids.">
+    <meta name="keywords" content="senior walker, mobility aid, rollator, walker for elderly, mobility assessment, walker with seat, all-terrain walker, walking aid, mobility device, senior mobility">
+    <meta name="author" content="WalkerSupport.com">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <!-- Intro Screen -->
+        <div id="intro" class="quiz-section active">
+            <h1>Discover Your Ideal Walker in 90 Seconds</h1>
+            <p>Answer 5 quick questions to get personalized recommendations</p>
+            
+            <div class="intro-context">
+                <h2>Finding the Right Walker for Your Mobility Needs</h2>
+                <p>Selecting the perfect mobility aid can significantly improve your quality of life and independence. Whether you're recovering from surgery, managing balance issues, or seeking support for long-term mobility challenges, the right walker can make all the difference.</p>
+                
+                <p>Our senior mobility experts have designed this quiz to help match you with the ideal walker based on your specific needs. We consider factors like:</p>
+                
+                <ul>
+                    <li><strong>Mobility level</strong> - From occasional support to full assistance</li>
+                    <li><strong>Usage environment</strong> - Indoor, outdoor, or mixed terrain</li>
+                    <li><strong>Physical considerations</strong> - Balance, strength, and stamina</li>
+                    <li><strong>Lifestyle needs</strong> - Activities and transportation requirements</li>
+                </ul>
+                
+                <p>Whether you need a standard walker, rollator with seat, or all-terrain mobility aid, this assessment will guide you toward the best option for your unique situation.</p>
+            </div>
+            <div class="intro-benefits">
+                <div class="benefit">
+                    <span class="check-icon">✓</span>
+                    <span>Clinical-grade mobility evaluation</span>
+                </div>
+                <div class="benefit">
+                    <span class="check-icon">✓</span>
+                    <span>Safety-first recommendations</span>
+                </div>
+                <div class="benefit">
+                    <span class="check-icon">✓</span>
+                    <span>Personalized usage tips</span>
+                </div>
+            </div>
+            <button id="startQuiz" class="cta-btn">Start My Mobility Assessment →</button>
+            <div class="trust-badges">
+                <span>Trusted by thousands of seniors</span>
+                <!-- Placeholder for trust badges -->
+            </div>
+        </div>
+
+        <!-- Questions Container -->
+        <div id="questions" class="quiz-section">
+            <div class="progress-container">
+                <div class="progress-text">Question <span id="currentQuestionNum">1</span> of <span id="totalQuestions">5</span></div>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+            <div id="questionContainer"></div>
+            <div class="quiz-controls">
+                <button id="prevBtn" class="nav-btn">← Previous</button>
+                <button id="nextBtn" class="cta-btn">Next →</button>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results" class="quiz-section">
+            <h2>Your Recommended Walker</h2>
+            <div class="recommendation-card">
+                <h3>Recommended: <span id="walkerType">All-Terrain Rollator</span></h3>
+                <div class="badge">Perfect Match</div>
+                <ul class="walker-features" id="walkerFeatures">
+                    <!-- Features will be populated by JavaScript -->
+                </ul>
+                <!-- Urgency banner removed as requested -->
+            </div>
+            
+            <div class="cta-section">
+                <a href="https://walkersupport.com" class="primary-cta">
+                    Visit WalkerSupport.com for More Information →<br>
+                    <small>Helpful tips, blog articles, and expert advice for seniors</small>
+                </a>
+                
+                <div class="social-proof">
+                    <div class="testimonial">
+                        "Found the perfect walker through this quiz - it cut my search time in half!"
+                        <div class="author">- Mary P., Verified User</div>
+                    </div>
+                    <div class="stats">
+                        <strong>1,432</strong> recommendations given this week
+                    </div>
+                </div>
+                
+                <a href="https://walkersupport.com/safety-tips/" class="secondary-cta">
+                    View Walker Safety Tips →
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/quiz.js"></script>
+    <script src="js/results.js"></script>
+</body>
+</html>
